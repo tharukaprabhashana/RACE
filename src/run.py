@@ -90,7 +90,7 @@ def evaluate_sequential(args, runner):
 
 import wandb
 os.environ["WANDB_API_KEY"] = ""
-os.environ["WANDB_MODE"] = ""
+os.environ["WANDB_MODE"] = "disabled"
 import time
 def run_sequential(args, logger):
 
